@@ -9,6 +9,12 @@ app.get("/", (req, res) => {
 app.get("/login", (req, res) => {
   res.send("login");
 });
+app.get("/api", (req, res) => {
+  res.json({
+    name: "goutam waghe",
+    pass: "backchod123",
+  });
+});
 app.get("/youtubre", (req, res) => {
   res.send("youutube");
 });
